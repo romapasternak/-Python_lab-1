@@ -1,0 +1,2 @@
+y = input("Enter your word:")[::-1]
+print (y. strip())
