@@ -1,4 +1,4 @@
-y=input("введыть текст")
+y=input("введіть текст")
 for i in y:
     if i==" ":
         continue
