@@ -21,11 +21,6 @@ if  dija == '*':
         return x * y
     print (dija (x, y))
 
-if  dija == '/':
-    def dija (x, y):
-        return x / y
-    print (dija  (x, y))
-
 if dija == '/':
     def dija(x, y):
         return x / y
