@@ -40,6 +40,5 @@ if dija == '**':
     def dija(x, y):
         return x ** y
     print(dija(x, y))
-else:
-        print("Неправильний знак!")
+
 print ("End")
