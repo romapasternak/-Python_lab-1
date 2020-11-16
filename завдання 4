@@ -1,0 +1,43 @@
+print ("Канкулятор")
+
+x = float(input ("x="))
+
+y = float(input ("y="))
+
+dija = input ("Дiя:")
+
+if dija == '+':
+    def dija (x, y):
+        return x + y
+    print (dija (x, y))
+
+if dija == '-':
+    def dija (x, y):
+        return x - y
+    print (dija (x, y))
+
+if  dija == '*':
+    def dija (x, y):
+        return x * y
+    print (dija (x, y))
+
+if  dija == '/':
+    def dija (x, y):
+        return x / y
+    print (dija  (x, y))
+
+if dija == '/':
+    def dija(x, y):
+        return x / y
+    print(dija(x, y))
+
+if dija == '%':
+    def dija(x, y):
+        return x % y
+    print(dija(x, y))
+
+if dija == '**':
+    def dija(x, y):
+        return x ** y
+    print(dija(x, y))
+print ("End")
