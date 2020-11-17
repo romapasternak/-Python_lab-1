@@ -21,11 +21,12 @@ if  dija == '*':
         return x * y
     print (dija (x, y))
 
-if dija == '/':
-    def dija(x, y):
+if  dija == '/':
+    def dija (x, y):
         return x / y
-    print(dija(x, y))
-
+    if y == 0:
+        print("Дiлення на ноль!")
+    print (dija  (x, y))
 if dija == '%':
     def dija(x, y):
         return x % y
@@ -35,5 +36,6 @@ if dija == '**':
     def dija(x, y):
         return x ** y
     print(dija(x, y))
-
 print ("End")
+
+
